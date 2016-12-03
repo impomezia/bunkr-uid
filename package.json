@@ -22,7 +22,7 @@
   "homepage": "https://github.com/impomezia/bunkr-uid#readme",
   "dependencies": {
     "bs58": "^3.1.0",
-    "crc": "^3.4.3",
+    "crc": "^3.4.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
