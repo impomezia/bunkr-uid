@@ -11,7 +11,7 @@ Simple module to generate and validate Base58 encoded UIDs with CRC8 checksum.
 # Usage
 
 ```javascript
-const uuid = require('bunkr-uuid');
+const uuid = require('@bunkr/uid');
 
 uuid.generate(16);
 // 31dh27vxYY8qTawfPHeqAZJc
