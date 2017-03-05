@@ -1,6 +1,6 @@
 {
   "name": "@bunkr/uid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple module to generate and validate Base58 encoded UIDs with CRC8 checksum.",
   "keywords": [
     "crc",
@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/impomezia/bunkr-uid#readme",
   "dependencies": {
-    "bs58": "^3.1.0",
-    "crc": "^3.4.3"
+    "bs58": "^4.0.0",
+    "crc": "^3.4.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "mocha": "^3.2.0"
   }
 }
