@@ -59,6 +59,10 @@ function validate(id) {
     return false;
   }
 
+  if (buf.length < 4) {
+    return false;
+  }
+
   const crc = buf.readUInt8(buf.length - 1);
   buf.writeUInt8(255, buf.length - 1);
   return crc8(buf) === crc;
@@ -75,6 +79,10 @@ function type(id) {
     buf = bs58.decode(id);
   }
   catch (e) {
+    return 0;
+  }
+
+  if (buf.length < 4) {
     return 0;
   }
 

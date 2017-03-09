@@ -43,7 +43,7 @@ describe('Validate', () => {
 
 
   it('invalid', () => {
-    const tests = [null, '123', 'qEfn2niF1nUxNdfekbu9gv2n', 'yR-VYTPRQQeMIfQI4i5jw4xp'];
+    const tests = [null, '123', 'qEfn2niF1nUxNdfekbu9gv2n', 'yR-VYTPRQQeMIfQI4i5jw4xp', ''];
 
     for (let i of tests) {
       expect(uid.validate(i)).to.be.false;

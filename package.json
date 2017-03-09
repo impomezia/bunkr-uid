@@ -1,6 +1,6 @@
 {
   "name": "@bunkr/uid",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple module to generate and validate Base58 encoded UIDs with CRC8 checksum.",
   "keywords": [
     "crc",
